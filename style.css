@@ -34,9 +34,9 @@ header {
     left: 0;
     width:100%;
     padding: 20px 100px;
-    background: darkcyan;
+    background: rgba(108, 5, 176, 0.704);
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     align-items: center;
     z-index: 100;
 }
@@ -46,7 +46,6 @@ header {
     color: beige;
     text-decoration:none;
     font-weight: 700;
-    justify-self: flex-start;
 }
 
 .navbar a {
@@ -72,3 +71,8 @@ header {
 .navbar a:hover::before {
     width: 100%;
 }
+
+.navbar button {
+    background-color: aqua;
+}
+
